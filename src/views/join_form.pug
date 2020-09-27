@@ -1,0 +1,9 @@
+html
+    head
+        title= title
+    body
+        form(action='/room/join', method='get')
+            p
+            | RoomCode: 
+            input(type='text', name='code', value='', placeholder='Enter your room code')
+            input(type='submit', value='Join')

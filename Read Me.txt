@@ -1,0 +1,7 @@
+git clone this repo.
+cmds .
+yarn
+yarn start
+
+
+then server starts at port: 5001

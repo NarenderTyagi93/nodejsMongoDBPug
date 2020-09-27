@@ -1,0 +1,9 @@
+html
+    head
+        title= title
+    body
+        h1= message
+        form(method="post" action="/room/add")
+            button(type="submit") Create Room
+        form(method="get" action="/room/join-form")
+            button(type="submit") Join Room

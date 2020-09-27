@@ -1,0 +1,18 @@
+html
+    head
+        title= title
+    body
+        h1= message1
+        h4= message2
+        // register form
+        form(method='POST' action='/quiz/submit'+ '?attemptId=' + attemptId)
+            each q in questions
+                div.form-group 
+                    label(for=q._id)= q.text 
+                    <br>
+                    each o in q.options
+                        input(type='radio', name=q._id, value=o._id)
+                        Thing= o.text 
+                        <br>
+                <br>
+            input(type='submit', value='Submit')
