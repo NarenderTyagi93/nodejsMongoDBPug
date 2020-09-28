@@ -10,6 +10,7 @@ Use the package manager [npm](https://www.npmjs.com/) or [yarn](https://classic.
 npm i / yarn
 npm run start/yarn start
 ```
+Server Ip : 13.127.214.188
 
 
 
